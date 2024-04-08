@@ -1,0 +1,24 @@
+/* menu.css */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; /* Установим нулевые отступы */
+}
+
+ul li {
+    padding: 5px 0; /* Изменим отступы для элементов списка */
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: #db0f0f;
+}
+
+ul ul {
+    display: none;
+    margin-left: 20px;
+}
+
+ul li:hover ul {
+    display: block;
+}

@@ -1,0 +1,14 @@
+{% load static %}
+{% load menu_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tree Menu</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'menuapp/menu.css' %}">
+</head>
+<body>
+    <div>
+        {% render_menu %}
+    </div>
+</body>
+</html>
